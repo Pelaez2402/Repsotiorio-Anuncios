@@ -24,3 +24,16 @@ C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUN
 C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
 C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
 C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.sourcelink.json
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\tomas\OneDrive\Desktop\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
