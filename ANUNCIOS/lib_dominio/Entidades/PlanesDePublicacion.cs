@@ -8,8 +8,10 @@
         public int Duracion { get; set; }
         public string? Descripcion { get; set; }
         public DateTime FechaCreacion { get; set; }
-        public byte Activo { get; set; }
+        public bool Activo { get; set; }
 
         public List<Anuncios>? _Anuncio { get; set; } = new List<Anuncios>();
+        public List<Pagos> Pagos { get; set; } = new List<Pagos>();
+
     }
 }

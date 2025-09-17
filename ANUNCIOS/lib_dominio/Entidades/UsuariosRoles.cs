@@ -8,7 +8,7 @@ namespace lib_dominio.Entidades
         public int RolId { get; set; }
         public DateTime FechaAsignacion { get; set; }
         public string? AsignadoPor { get; set; }
-        public byte Activo { get; set; }
+        public bool Activo { get; set; }
 
 
         [ForeignKey("Usuario")] public Usuarios? _Usuario { get; set; }

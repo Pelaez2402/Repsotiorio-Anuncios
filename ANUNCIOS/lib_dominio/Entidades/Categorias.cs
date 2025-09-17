@@ -8,7 +8,7 @@ namespace lib_dominio.Entidades
         public string? Nombre { get; set; }
         public string? Descripcion { get; set; }
         public DateTime FechaCreacion { get; set; }
-        public byte Activo { get; set; }
+        public bool Activo { get; set; }
 
 
         [ForeignKey("Subcategoria")] public Subcategorias? _Subcategoria { get; set; }

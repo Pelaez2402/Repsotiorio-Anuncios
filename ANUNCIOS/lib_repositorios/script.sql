@@ -5,7 +5,7 @@ GO
 
 -- ==================== TABLAS SIN CLAVES FORÁNEAS ====================
 
--- Roles
+
 CREATE TABLE Roles (
     RolId INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(50) NOT NULL,
@@ -14,7 +14,7 @@ CREATE TABLE Roles (
 );
 GO
 
--- Categorias
+
 CREATE TABLE Categorias (
     CategoriaId INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(100) NOT NULL,
@@ -24,7 +24,7 @@ CREATE TABLE Categorias (
 );
 GO
 
--- Ubicaciones
+
 CREATE TABLE Ubicaciones (
     UbicacionId INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(100) NOT NULL,
@@ -34,7 +34,7 @@ CREATE TABLE Ubicaciones (
 );
 GO
 
--- PlanesDePublicacion
+
 CREATE TABLE PlanesDePublicacion (
     PlanId INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(100) NOT NULL,
@@ -48,7 +48,7 @@ GO
 
 -- ==================== TABLAS CON 1 CLAVE FORÁNEA ====================
 
--- Usuarios
+
 CREATE TABLE Usuarios (
     UsuarioId INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(100) NOT NULL,  
@@ -60,7 +60,7 @@ CREATE TABLE Usuarios (
 );
 GO
 
--- Subcategorias
+
 CREATE TABLE Subcategorias (
     SubcategoriaId INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(100) NOT NULL,
@@ -74,7 +74,7 @@ GO
 
 -- ==================== TABLAS CON 2 CLAVES FORÁNEAS ====================
 
--- UsuariosRoles
+
 CREATE TABLE UsuariosRoles (
     UsuarioId INT,
     RolId INT,
@@ -87,7 +87,7 @@ CREATE TABLE UsuariosRoles (
 );
 GO
 
--- Anuncios
+
 CREATE TABLE Anuncios (
     AnuncioId INT PRIMARY KEY IDENTITY(1,1),
     Titulo NVARCHAR(200) NOT NULL,
@@ -104,7 +104,7 @@ CREATE TABLE Anuncios (
 );
 GO
 
--- Comentarios (Reemplazo de Mensajes)
+
 CREATE TABLE Comentarios (
     ComentarioId INT PRIMARY KEY IDENTITY(1,1),
     Contenido NVARCHAR(MAX) NOT NULL,
@@ -121,7 +121,7 @@ GO
 
 -- ==================== TABLAS CON 3+ CLAVES FORÁNEAS ====================
 
--- ImagenesAnuncios
+
 CREATE TABLE ImagenesAnuncios (
     ImagenId INT PRIMARY KEY IDENTITY(1,1),
     Url NVARCHAR(255) NOT NULL,
@@ -134,7 +134,7 @@ CREATE TABLE ImagenesAnuncios (
 );
 GO
 
--- AnunciosSubcategorias
+
 CREATE TABLE AnunciosSubcategorias (
     AnuncioId INT, 
     SubcategoriaId INT,
@@ -146,7 +146,7 @@ CREATE TABLE AnunciosSubcategorias (
 );
 GO
 
--- Favoritos
+
 CREATE TABLE Favoritos (
     UsuarioId INT,
     AnuncioId INT,
@@ -159,7 +159,7 @@ CREATE TABLE Favoritos (
 );
 GO
 
--- ReportesDeAnuncios
+
 CREATE TABLE ReportesDeAnuncios (
     ReporteId INT PRIMARY KEY IDENTITY(1,1),
     Motivo NVARCHAR(255) NOT NULL,
@@ -172,7 +172,7 @@ CREATE TABLE ReportesDeAnuncios (
 );
 GO
 
--- Pagos
+
 CREATE TABLE Pagos (
     PagoId INT PRIMARY KEY IDENTITY(1,1),
     Monto DECIMAL(10,2) NOT NULL,
@@ -188,7 +188,6 @@ CREATE TABLE Pagos (
 );
 GO
 
--- Notificaciones (Falta esta tabla para completar las 15)
 CREATE TABLE Notificaciones (
     NotificacionId INT PRIMARY KEY IDENTITY(1,1),
     UsuarioId INT NOT NULL,

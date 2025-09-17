@@ -9,9 +9,11 @@ namespace lib_dominio.Entidades
         public string? Descripcion { get; set; }
         public int CategoriaId { get; set; }
         public DateTime FechaCreacion { get; set; }
-        public byte Activo { get; set; }
+        public bool Activo { get; set; }
 
         public List<Categorias> _Categoria { get; set; } = new List<Categorias>();
+        public List<AnunciosSubcategorias> AnunciosSubcategorias { get; set; } = new List<AnunciosSubcategorias>();
+
 
     }
 }
