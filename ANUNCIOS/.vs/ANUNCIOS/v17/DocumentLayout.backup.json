@@ -1,20 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55531E39-31FF-41F7-A14B-D8F75AA9A0D7}|lib_dominio\\lib_dominio.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55531E39-31FF-41F7-A14B-D8F75AA9A0D7}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,49 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EntidadesNucleo.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "RelativeToolTip": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T18:47:44.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatosGenerales.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "RelativeToolTip": "lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T18:45:29.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Configuracion.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Nucleo\\Configuracion.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Nucleo\\Configuracion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Nucleo\\Configuracion.cs",
-              "RelativeToolTip": "ut_presentacion\\Nucleo\\Configuracion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T18:43:13.95Z",
-              "EditorCaption": ""
             }
           ]
         }

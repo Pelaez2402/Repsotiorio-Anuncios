@@ -11,3 +11,16 @@ C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\lib_domini
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.sourcelink.json
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
