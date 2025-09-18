@@ -11,7 +11,7 @@ namespace lib_dominio.Entidades
         public DateTime FechaCreacion { get; set; }
         public int UsuarioId { get; set; }
         public int AnuncioId { get; set; }
-        public int ComentarioPadreId { get; set; }
+        public int? ComentarioPadreId { get; set; }
         public bool Activo { get; set; }
 
         [ForeignKey("Usuario")] public Usuarios? _Usuario { get; set; }
