@@ -15,6 +15,6 @@ namespace lib_dominio.Entidades
         public bool Leida { get; set; }
         public string? UrlDestino { get; set; }
 
-        [ForeignKey("Usuario")] public Usuarios? _Usuario { get; set; }
+        [ForeignKey("UsuarioId")] public Usuarios? _Usuario { get; set; }
     }
 }

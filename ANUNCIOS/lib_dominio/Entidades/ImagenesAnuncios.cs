@@ -14,8 +14,8 @@ namespace lib_dominio.Entidades
         public string? Titulo { get; set; }
         public DateTime FechaSubida { get; set; }
 
-        [ForeignKey("Usuario")] public Usuarios? _Usuario { get; set; }
-        [ForeignKey("Anuncio")] public Anuncios? _Anuncio { get; set; }
+        [ForeignKey("UsuarioId")] public Usuarios? _Usuario { get; set; }
+        [ForeignKey("AnuncioId")] public Anuncios? _Anuncio { get; set; }
 
     }
 }

@@ -11,7 +11,7 @@ namespace lib_dominio.Entidades
         public DateTime FechaCreacion { get; set; }
         public bool Activo { get; set; }
 
-        public List<Categorias> _Categoria { get; set; } = new List<Categorias>();
+        [ForeignKey("CategoriaId")] public Categorias? _Categorias { get; set; }
         public List<AnunciosSubcategorias> AnunciosSubcategorias { get; set; } = new List<AnunciosSubcategorias>();
 
 

@@ -23,6 +23,7 @@ namespace lib_repositorios.Interfaces
         DbSet<Usuarios>? Usuarios { get; set; }
         DbSet<UsuariosRoles>? UsuariosRoles { get; set; }
 
+
         EntityEntry<T> Entry<T>(T entity) where T : class;
         int SaveChanges();
     }

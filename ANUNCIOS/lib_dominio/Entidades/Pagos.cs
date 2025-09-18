@@ -16,9 +16,9 @@ namespace lib_dominio.Entidades
         public string? MetodoPago { get; set; }
         public string? Estado { get; set; }
 
-        [ForeignKey("Usuario")] public Usuarios? _Usuario { get; set; }
-        [ForeignKey("Anuncio")] public Anuncios? _Anuncio { get; set; }
-        [ForeignKey("Plan")] public PlanesDePublicacion? _PlanDePublicacion{ get; set; }
+        [ForeignKey("UsuarioId")] public Usuarios? _Usuario { get; set; }
+        [ForeignKey("AnuncioId")] public Anuncios? _Anuncio { get; set; }
+        [ForeignKey("PlanId")] public PlanesDePublicacion? _PlanDePublicacion{ get; set; }
 
 
     }

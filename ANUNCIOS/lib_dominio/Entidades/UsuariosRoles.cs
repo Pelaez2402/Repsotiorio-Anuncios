@@ -4,6 +4,7 @@ namespace lib_dominio.Entidades
 {
     public class UsuariosRoles
     {
+        public int Id { get; set; }
         public int UsuarioId{get; set;}
         public int RolId { get; set; }
         public DateTime FechaAsignacion { get; set; }
@@ -11,7 +12,7 @@ namespace lib_dominio.Entidades
         public bool Activo { get; set; }
 
 
-        [ForeignKey("Usuario")] public Usuarios? _Usuario { get; set; }
-        [ForeignKey("Rol")] public Roles? _Rol { get; set; }
+        [ForeignKey("UsuarioId")] public Usuarios? _Usuario { get; set; }
+        [ForeignKey("RolId")] public Roles? _Rol { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace lib_dominio.Entidades
         public bool Activo { get; set; }
 
 
-        [ForeignKey("Subcategoria")] public Subcategorias? _Subcategoria { get; set; }
+        public List<Subcategorias> Subcategorias { get; set; } = new List<Subcategorias>();
     }
 }
 

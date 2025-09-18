@@ -15,9 +15,9 @@ namespace lib_dominio.Entidades
         public bool Estado { get; set; }
         public int PlanId { get; set; }
 
-        [ForeignKey("Usuario")] public Usuarios? _Usuario { get; set; }
-        [ForeignKey("Ubicacion")] public Ubicaciones? _Ubicacion { get; set; }
-        [ForeignKey("PlanDePublicacion")] public PlanesDePublicacion? _PlanDePublicacion { get; set; }
+        [ForeignKey("UsuarioId")] public Usuarios? _Usuario { get; set; }
+        [ForeignKey("UbicacionId")] public Ubicaciones? _Ubicacion { get; set; }
+        [ForeignKey("PlanId")] public PlanesDePublicacion? _PlanDePublicacion { get; set; }
         public List<Comentarios> Comentarios { get; set; } = new List<Comentarios>();
         public List<ImagenesAnuncios> ImagenesAnuncios { get; set; } = new List<ImagenesAnuncios>();
         public List<AnunciosSubcategorias> AnunciosSubcategorias { get; set; } = new List<AnunciosSubcategorias>();
