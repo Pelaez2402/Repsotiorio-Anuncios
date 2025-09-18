@@ -1,7 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\anunciosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\anunciosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\usuariosrolesprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\usuariosrolesprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\usuariosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\usuariosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\ubicacionesprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\ubicacionesprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\subcategoriasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\subcategoriasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\rolesprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\rolesprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\reportesdeanunciosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\reportesdeanunciosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\planesdepublicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\planesdepublicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\pagosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\pagosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\notificacionesprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\notificacionesprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\imagenesanunciosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\imagenesanunciosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\favoritosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\favoritosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\comentariosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\comentariosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\categoriasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\categoriasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\anunciossubategoriasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\anunciossubategoriasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +70,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosRolesPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\UsuariosRolesPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\UsuariosRolesPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\UsuariosRolesPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\UsuariosRolesPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:25:27.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\UsuariosPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\UsuariosPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\UsuariosPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\UsuariosPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:25:17.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UbicacionesPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\UbicacionesPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\UbicacionesPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\UbicacionesPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\UbicacionesPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:25:07.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubcategoriasPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\SubcategoriasPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\SubcategoriasPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\SubcategoriasPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\SubcategoriasPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:24:57.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnunciosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\AnunciosPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\AnunciosPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\AnunciosPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\AnunciosPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:21:59.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolesPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\RolesPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\RolesPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\RolesPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\RolesPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:24:48.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportesDeAnunciosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\ReportesDeAnunciosPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\ReportesDeAnunciosPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\ReportesDeAnunciosPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\ReportesDeAnunciosPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:24:38.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlanesDePublicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\PlanesDePublicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\PlanesDePublicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\PlanesDePublicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\PlanesDePublicacionPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:24:28.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PagosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\PagosPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\PagosPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\PagosPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\PagosPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:24:19.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificacionesPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\NotificacionesPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\NotificacionesPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\NotificacionesPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\NotificacionesPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:24:06.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImagenesAnunciosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\ImagenesAnunciosPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\ImagenesAnunciosPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\ImagenesAnunciosPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\ImagenesAnunciosPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:23:57.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FavoritosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\FavoritosPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\FavoritosPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\FavoritosPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\FavoritosPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:23:46.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ComentariosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\ComentariosPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\ComentariosPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\ComentariosPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\ComentariosPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:23:34.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriasPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\CategoriasPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\CategoriasPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\CategoriasPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\CategoriasPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:23:23.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AnunciosSubategoriasPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\AnunciosSubategoriasPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\AnunciosSubategoriasPrueba.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\AnunciosSubategoriasPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\AnunciosSubategoriasPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:23:03.119Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
