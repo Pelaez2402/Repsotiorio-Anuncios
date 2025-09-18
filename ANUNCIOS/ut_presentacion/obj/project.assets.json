@@ -4449,23 +4449,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tomit\\.nuget\\packages\\": {},
+    "C:\\Users\\Sebastian\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\ut_presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\ut_presentacion.csproj",
       "projectName": "ut_presentacion",
-      "projectPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\ut_presentacion.csproj",
-      "packagesPath": "C:\\Users\\tomit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\obj\\",
+      "projectPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\ut_presentacion.csproj",
+      "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tomit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4481,11 +4481,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj": {
-              "projectPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj"
+            "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj": {
+              "projectPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj"
             },
-            "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\lib_repositorios.csproj": {
-              "projectPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\lib_repositorios.csproj"
+            "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\lib_repositorios.csproj": {
+              "projectPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\lib_repositorios.csproj"
             }
           }
         }
@@ -4526,20 +4526,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
