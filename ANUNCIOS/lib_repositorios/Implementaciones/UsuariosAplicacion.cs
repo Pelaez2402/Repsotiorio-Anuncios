@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace lib_repositorios.Implementaciones
 {
-    public class UsuariosAplicacion : IUsuarioAplicacion
+    public class UsuariosAplicacion : IUsuariosAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -17,7 +17,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public Usuario? Guardar(Usuario? entidad)
+        public Usuarios? Guardar(Usuarios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -27,7 +27,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Usuario? Modificar(Usuario? entidad)
+        public Usuarios? Modificar(Usuarios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -37,7 +37,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Usuario? Borrar(Usuario? entidad)
+        public Usuarios? Borrar(Usuarios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -47,7 +47,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<Usuario> Listar() => this.IConexion!.Usuarios!.Take(20).ToList();
+        public List<Usuarios> Listar() => this.IConexion!.Usuarios!.Take(20).ToList();
     }
 }
 }

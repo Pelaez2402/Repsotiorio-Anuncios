@@ -2,7 +2,7 @@
 using lib_dominio.Entidades;
 namespace lib_repositorios.Implementaciones
 {
-    public class RolesAplicacion : IRolAplicacion
+    public class RolesAplicacion : IRolesAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -10,7 +10,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public Rol? Guardar(Rol? entidad)
+        public Roles? Guardar(Roles? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -20,7 +20,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Rol? Modificar(Rol? entidad)
+        public Roles? Modificar(Roles? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -30,7 +30,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Rol? Borrar(Rol? entidad)
+        public Roles? Borrar(Roles? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -40,8 +40,8 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<Rol> Listar() => this.IConexion!.Roles!.Take(20).ToList();
+        public List<Roles> Listar() => this.IConexion!.Roles!.Take(20).ToList();
     }
 }
-} 
+
     

@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using lib_dominio.Entidades;
 
 namespace lib_repositorios.Implementaciones
 {
-    public class UsuariosRolesAplicacion : IUsuarioRolAplicacion
+    public class UsuariosRolesAplicacion : IUsuariosRolesAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -16,7 +17,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public UsuarioRol? Guardar(UsuarioRol? entidad)
+        public UsuariosRoles? Guardar(UsuariosRoles? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -26,7 +27,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public UsuarioRol? Modificar(UsuarioRol? entidad)
+        public UsuariosRoles? Modificar(UsuariosRoles? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -36,7 +37,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public UsuarioRol? Borrar(UsuarioRol? entidad)
+        public UsuariosRoles? Borrar(UsuariosRoles? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -46,7 +47,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<UsuarioRol> Listar() => this.IConexion!.UsuariosRoles!.Take(20).ToList();
+        public List<UsuariosRoles> Listar() => this.IConexion!.UsuariosRoles!.Take(20).ToList();
     }
 }
 }

@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\",
-=======
-  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\",
->>>>>>> 84ace6e20dbe7a89c75c5d2d1502b7f129b16fc7
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -26,13 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-<<<<<<< HEAD
-=======
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
->>>>>>> 84ace6e20dbe7a89c75c5d2d1502b7f129b16fc7
             }
           ]
         }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace lib_repositorios.Implementaciones
 {
-    public class CategoriasAplicacion : ICategoriaAplicacion
+    public class CategoriasAplicacion : ICategoriasAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -16,7 +16,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public Categoria? Guardar(Categoria? entidad)
+        public Categorias? Guardar(Categorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -26,7 +26,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Categoria? Modificar(Categoria? entidad)
+        public Categorias? Modificar(Categorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -36,7 +36,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Categoria? Borrar(Categoria? entidad)
+        public Categorias? Borrar(Categorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -46,7 +46,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<Categoria> Listar() => this.IConexion!.Categorias!.Take(20).ToList();
+        public List<Categorias> Listar() => this.IConexion!.Categorias!.Take(20).ToList();
     }
 }
-}
+
