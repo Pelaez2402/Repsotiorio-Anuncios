@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\lib_repositorios",
+    "\\lib_repositorios\\Implementaciones",
+    "\\lib_repositorios\\Interfaces",
     "\\ut_presentacion",
     "\\ut_presentacion\\Nucleo",
     "\\ut_presentacion\\Repositorios"
   ],
-  "SelectedNode": "\\ANUNCIOS.sln",
+  "SelectedNode": "\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
   "PreviewInSolutionExplorer": false
 }
