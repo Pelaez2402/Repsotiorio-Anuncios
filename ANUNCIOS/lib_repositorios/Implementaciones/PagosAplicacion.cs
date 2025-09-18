@@ -16,7 +16,9 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
-
+            var plan = this.IConexion!.PlanesDePublicacion!.FirstOrDefault(p => p.Id == entidad.PlanId);
+            if (plan == null)
+                throw new Exception("lbElplanEspecificadoNoExiste");
             this.IConexion!.Pagos!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;

@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\aplicaciones\\pagosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\aplicaciones\\pagosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55531E39-31FF-41F7-A14B-D8F75AA9A0D7}|lib_dominio\\lib_dominio.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55531E39-31FF-41F7-A14B-D8F75AA9A0D7}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\ipagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\ipagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\notificacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\notificacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +34,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -22,6 +51,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntidadesNucleo.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeToolTip": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:01:16.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pagos.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\Entidades\\Pagos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Pagos.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\Entidades\\Pagos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Pagos.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:34:38.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\PagosPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Aplicaciones\\PagosPrueba.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Aplicaciones\\PagosPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\Aplicaciones\\PagosPrueba.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:00:10.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPagosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IPagosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IPagosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IPagosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IPagosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:51:17.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotificacionesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\NotificacionesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\NotificacionesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\NotificacionesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\NotificacionesAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:34:11.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\PagosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PagosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\PagosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PagosAplicacion.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:33:40.296Z",
+              "EditorCaption": ""
             }
           ]
         }
