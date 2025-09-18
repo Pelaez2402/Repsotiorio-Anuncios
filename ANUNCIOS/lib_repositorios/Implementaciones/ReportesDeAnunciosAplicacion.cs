@@ -1,14 +1,10 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace lib_repositorios.Implementaciones
 {
-    public class ReportesDeAnunciosAplicacion : IReporteDeAnuncioAplicacion
+    public class ReportesDeAnunciosAplicacion : IReportesDeAnunciosAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -16,7 +12,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public ReporteDeAnuncio? Guardar(ReporteDeAnuncio? entidad)
+        public ReportesDeAnuncios? Guardar(ReportesDeAnuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -26,7 +22,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public ReporteDeAnuncio? Modificar(ReporteDeAnuncio? entidad)
+        public ReportesDeAnuncios? Modificar(ReportesDeAnuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -36,7 +32,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public ReporteDeAnuncio? Borrar(ReporteDeAnuncio? entidad)
+        public ReportesDeAnuncios? Borrar(ReportesDeAnuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -46,7 +42,9 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<ReporteDeAnuncio> Listar() => this.IConexion!.ReportesDeAnuncios!.Take(20).ToList();
+        public List<ReportesDeAnuncios> Listar() => this.IConexion!.ReportesDeAnuncios!.Take(20).ToList();
     }
+
+    
 }
-}
+

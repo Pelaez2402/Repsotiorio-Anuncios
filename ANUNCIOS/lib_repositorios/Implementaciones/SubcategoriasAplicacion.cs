@@ -1,15 +1,11 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace lib_repositorios.Implementaciones
 {
-    public class SubcategoriasAplicacion : ISubcategoriaAplicacion
+    public class SubcategoriasAplicacion : ISubcategoriasAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -17,7 +13,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public Subcategoria? Guardar(Subcategoria? entidad)
+        public Subcategorias? Guardar(Subcategorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -27,7 +23,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Subcategoria? Modificar(Subcategoria? entidad)
+        public Subcategorias? Modificar(Subcategorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -37,7 +33,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Subcategoria? Borrar(Subcategoria? entidad)
+        public Subcategorias? Borrar(Subcategorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -47,7 +43,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<Subcategoria> Listar() => this.IConexion!.Subcategorias!.Take(20).ToList();
+        public List<Subcategorias> Listar() => this.IConexion!.Subcategorias!.Take(20).ToList();
     }
 }
-}
+

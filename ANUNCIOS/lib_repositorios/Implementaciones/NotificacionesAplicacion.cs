@@ -1,14 +1,10 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace lib_repositorios.Implementaciones
 {
-    public class NotificacionesAplicacion : INotificacionAplicacion
+    public class NotificacionesAplicacion : INotificacionesAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -16,7 +12,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public Notificacion? Guardar(Notificacion? entidad)
+        public Notificaciones? Guardar(Notificaciones? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -26,7 +22,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Notificacion? Modificar(Notificacion? entidad)
+        public Notificaciones? Modificar(Notificaciones? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -36,7 +32,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Notificacion? Borrar(Notificacion? entidad)
+        public Notificaciones? Borrar(Notificaciones? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -46,7 +42,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<Notificacion> Listar() => this.IConexion!.Notificaciones!.Take(20).ToList();
+        public List<Notificaciones> Listar() => this.IConexion!.Notificaciones!.Take(20).ToList();
     }
 }
-}
+

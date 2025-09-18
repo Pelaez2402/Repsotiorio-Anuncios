@@ -7,6 +7,7 @@ using ut_presentacion.Nucleo;
 namespace ut_presentacion.Aplicaciones
 {
     [TestClass]
+
     public class AnunciosPrueba
     {
         private readonly IAnunciosAplicacion? iAplicacion;
@@ -33,20 +34,29 @@ namespace ut_presentacion.Aplicaciones
         public bool Listar()
         {
             this.lista = this.iAplicacion!.Listar();
-            return lista.Count > 0;
+            return lista != null && lista.Count > 0;
         }
 
         public bool Guardar()
         {
-            var Descripcion = this.iConexion.Descripcion.FirstOrDefault(x => x.Id == 1);
-            this.entidad = EntidadesNucleo.Anuncios(Descripcion)!;
+            this.entidad = new Anuncios
+            {
+                Titulo = "Anuncio de prueba",
+                Descripcion = "Este es un anuncio de prueba para test unitario.",
+                Precio = 100000,
+                UsuarioId = 1,         
+                UbicacionId = 1,       
+                PlanId = null,         
+                Estado = true
+            };
+
             this.iAplicacion!.Guardar(this.entidad);
             return true;
         }
 
         public bool Modificar()
         {
-            this.entidad!.Titulo = "Título actualizado";
+            this.entidad!.Titulo = "Anuncio modificado";
             this.iAplicacion!.Modificar(this.entidad);
             return true;
         }
@@ -57,5 +67,6 @@ namespace ut_presentacion.Aplicaciones
             return true;
         }
     }
+
 }
 

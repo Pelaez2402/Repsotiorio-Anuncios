@@ -1,23 +1,10 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace lib_repositorios.Implementaciones
 {
-    public interface IAnuncioSubcategoriaAplicacion
-    {
-        void Configurar(string StringConexion);
-        AnuncioSubcategoria? Borrar(AnuncioSubcategoria? entidad);
-        AnuncioSubcategoria? Guardar(AnuncioSubcategoria? entidad);
-        List<AnuncioSubcategoria> Listar();
-        AnuncioSubcategoria? Modificar(AnuncioSubcategoria? entidad);
-    }
-
-    public class AnunciosSubcategoriasAplicacion : IAnuncioSubcategoriaAplicacion
+    public class AnunciosSubcategoriasAplicacion : IAnunciosSubcategoriasAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -25,7 +12,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public AnuncioSubcategoria? Guardar(AnuncioSubcategoria? entidad)
+        public AnunciosSubcategorias? Guardar(AnunciosSubcategorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -35,7 +22,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public AnuncioSubcategoria? Modificar(AnuncioSubcategoria? entidad)
+        public AnunciosSubcategorias? Modificar(AnunciosSubcategorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -45,7 +32,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public AnuncioSubcategoria? Borrar(AnuncioSubcategoria? entidad)
+        public AnunciosSubcategorias? Borrar(AnunciosSubcategorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -55,7 +42,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<AnuncioSubcategoria> Listar() => this.IConexion!.AnunciosSubcategorias!.Take(20).ToList();
+        public List<AnunciosSubcategorias> Listar() => this.IConexion!.AnunciosSubcategorias!.Take(20).ToList();
     }
 }
-}
+

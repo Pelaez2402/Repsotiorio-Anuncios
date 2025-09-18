@@ -1,14 +1,10 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace lib_repositorios.Implementaciones
 {
-    public class AnunciosAplicacion : IAnuncioAplicacion
+    public class AnunciosAplicacion : IAnunciosAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -16,7 +12,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public Anuncio? Guardar(Anuncio? entidad)
+        public Anuncios? Guardar(Anuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -26,7 +22,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Anuncio? Modificar(Anuncio? entidad)
+        public Anuncios? Modificar(Anuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -36,7 +32,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Anuncio? Borrar(Anuncio? entidad)
+        public Anuncios? Borrar(Anuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -46,7 +42,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<Anuncio> Listar() => this.IConexion!.Anuncios!.Take(20).ToList();
+        public List<Anuncios> Listar() => this.IConexion!.Anuncios!.Take(20).ToList();
     }
 }
-}
+

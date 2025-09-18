@@ -13,7 +13,7 @@ namespace lib_dominio.Entidades
         public int UsuarioId { get; set; }
         public int UbicacionId { get; set; }
         public bool Estado { get; set; }
-        public int PlanId { get; set; }
+        public int? PlanId { get; set; }
 
         [ForeignKey("UsuarioId")] public Usuarios? _Usuario { get; set; }
         [ForeignKey("UbicacionId")] public Ubicaciones? _Ubicacion { get; set; }

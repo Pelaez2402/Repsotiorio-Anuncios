@@ -1,13 +1,10 @@
 ﻿using lib_repositorios.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using lib_dominio.Entidades;
 
 namespace lib_repositorios.Implementaciones
 {
-    public class ImagenesAnunciosAplicacion : IImagenAnuncioAplicacion
+    public class ImagenesAnunciosAplicacion : IImagenesAnunciosAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -15,7 +12,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public ImagenAnuncio? Guardar(ImagenAnuncio? entidad)
+        public ImagenesAnuncios? Guardar(ImagenesAnuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -25,7 +22,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public ImagenAnuncio? Modificar(ImagenAnuncio? entidad)
+        public ImagenesAnuncios? Modificar(ImagenesAnuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -35,7 +32,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public ImagenAnuncio? Borrar(ImagenAnuncio? entidad)
+        public ImagenesAnuncios? Borrar(ImagenesAnuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -45,7 +42,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<ImagenAnuncio> Listar() => this.IConexion!.ImagenesAnuncios!.Take(20).ToList();
+        public List<ImagenesAnuncios> Listar() => this.IConexion!.ImagenesAnuncios!.Take(20).ToList();
     }
 }
-}
+

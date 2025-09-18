@@ -1,14 +1,9 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace lib_repositorios.Implementaciones
 {
-    public class UbicacionesAplicacion : IUbicacionAplicacion
+    public class UbicacionesAplicacion : IUbicacionesAplicacion
     {
         private IConexion? IConexion = null;
 
@@ -16,7 +11,7 @@ namespace lib_repositorios.Implementaciones
 
         public void Configurar(string StringConexion) => this.IConexion!.StringConexion = StringConexion;
 
-        public Ubicacion? Guardar(Ubicacion? entidad)
+        public Ubicaciones? Guardar(Ubicaciones? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
@@ -26,7 +21,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Ubicacion? Modificar(Ubicacion? entidad)
+        public Ubicaciones? Modificar(Ubicaciones? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -36,7 +31,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public Ubicacion? Borrar(Ubicacion? entidad)
+        public Ubicaciones? Borrar(Ubicaciones? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
@@ -46,7 +41,7 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<Ubicacion> Listar() => this.IConexion!.Ubicaciones!.Take(20).ToList();
+        public List<Ubicaciones> Listar() => this.IConexion!.Ubicaciones!.Take(20).ToList();
     }
 }
-}
+
