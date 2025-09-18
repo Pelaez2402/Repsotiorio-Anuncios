@@ -37,6 +37,7 @@ namespace ut_presentacion.Aplicaciones
 
         public bool Guardar()
         {
+            
             this.entidad = new Subcategorias
             {
                 Nombre = "Subcategoria Prueba",

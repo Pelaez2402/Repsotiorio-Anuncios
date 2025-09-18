@@ -16,7 +16,7 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
-
+        
             this.IConexion!.AnunciosSubcategorias!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;

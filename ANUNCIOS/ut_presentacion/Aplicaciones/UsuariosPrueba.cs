@@ -46,6 +46,7 @@ namespace ut_presentacion.Aplicaciones
                 Telefono = "31489135353",
                 FechaRegistro = DateTime.Now
             };
+            
 
             this.iAplicacion!.Guardar(this.entidad);
             return true;

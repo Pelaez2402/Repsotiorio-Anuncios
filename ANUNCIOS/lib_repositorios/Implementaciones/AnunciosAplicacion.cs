@@ -14,8 +14,24 @@ namespace lib_repositorios.Implementaciones
 
         public Anuncios? Guardar(Anuncios? entidad)
         {
-            if (entidad == null) throw new Exception("lbFaltaInformacion");
-            if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
+            if (entidad == null)
+                throw new Exception("lbFaltaInformacion");
+
+            if (entidad.Id != 0)
+                throw new Exception("lbYaSeGuardo");
+
+
+            if (string.IsNullOrWhiteSpace(entidad.Titulo))
+                throw new Exception("lbTituloRequerido");
+
+            if (entidad.UsuarioId == 0 || entidad.UbicacionId == 0)
+                throw new Exception("lbClavesForaneasInvalidas");
+
+
+
+
+            if (entidad.FechaPublicacion == default(DateTime))
+                entidad.FechaPublicacion = DateTime.Now;
 
             this.IConexion!.Anuncios!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -25,7 +41,19 @@ namespace lib_repositorios.Implementaciones
         public Anuncios? Modificar(Anuncios? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
+
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+
+            var entidadExistente = this.IConexion!.Anuncios!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
+
+            entidadExistente.Titulo = entidad.Titulo;
+            entidadExistente.Descripcion = entidad.Descripcion;
+            entidadExistente.Precio = entidad.Precio;
+            entidadExistente.Estado = entidad.Estado;
+            
+
 
             this.IConexion!.Anuncios!.Update(entidad);
             this.IConexion.SaveChanges();
@@ -36,6 +64,9 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+            var entidadExistente = this.IConexion!.Anuncios!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
 
             this.IConexion!.Anuncios!.Remove(entidad);
             this.IConexion.SaveChanges();
