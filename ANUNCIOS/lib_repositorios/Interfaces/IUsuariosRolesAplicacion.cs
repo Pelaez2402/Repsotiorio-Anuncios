@@ -2,12 +2,12 @@
 
 namespace lib_repositorios.Interfaces
 {
-    public interface IUsuariosRoles
+    public interface IUsuariosRolesAplicacion
     {
-    void Configurar(string StringConexion);
-    UsuariosRoles? Borrar(UsuariosRoles? entidad);
-    UsuariosRoles? Guardar(UsuariosRoles? entidad);
-    List<UsuariosRoles> Listar();
-    UsuariosRoles? Modificar(UsuariosRoles? entidad);
-  }
+        void Configurar(string StringConexion);
+        UsuariosRoles? Borrar(UsuariosRoles? entidad);
+        UsuariosRoles? Guardar(UsuariosRoles? entidad);
+        List<UsuariosRoles> Listar();
+        UsuariosRoles? Modificar(UsuariosRoles? entidad);
+    }
 }

@@ -1,8 +1,7 @@
 ﻿using lib_dominio.Entidades;
-
 namespace lib_repositorios.Interfaces
 {
-    public interface IReportesDeAnuncios
+    public interface IReportesDeAnunciosAplicacion
     {
         void Configurar(string StringConexion);
         ReportesDeAnuncios? Borrar(ReportesDeAnuncios? entidad);

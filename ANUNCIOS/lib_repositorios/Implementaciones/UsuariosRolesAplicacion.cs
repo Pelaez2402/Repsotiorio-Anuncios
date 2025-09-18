@@ -1,5 +1,4 @@
 ﻿using lib_repositorios.Interfaces;
-
 using lib_dominio.Entidades;
 
 namespace lib_repositorios.Implementaciones

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj": {}
+    "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj": {
+    "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj",
+        "projectUniqueName": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj",
         "projectName": "lib_dominio",
-        "projectPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj",
-        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\obj\\",
+        "projectPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\lib_dominio.csproj",
+        "packagesPath": "C:\\Users\\tomit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tomit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -67,6 +67,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

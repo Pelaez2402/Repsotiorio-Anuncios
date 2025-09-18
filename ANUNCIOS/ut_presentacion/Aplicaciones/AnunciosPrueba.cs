@@ -44,9 +44,10 @@ namespace ut_presentacion.Aplicaciones
                 Titulo = "Anuncio de prueba",
                 Descripcion = "Este es un anuncio de prueba para test unitario.",
                 Precio = 100000,
-                UsuarioId = 1,         
-                UbicacionId = 1,       
-                PlanId = null,         
+                UsuarioId = 1,
+                UbicacionId = 1,
+                FechaPublicacion = DateTime.Now,
+                PlanId = null,
                 Estado = true
             };
 
