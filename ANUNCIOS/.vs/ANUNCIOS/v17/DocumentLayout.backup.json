@@ -3,16 +3,132 @@
   "WorkspaceRootPath": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\usuariosrolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\usuariosrolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\iusuariosrolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iusuariosrolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\usuariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\usuariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\iusuariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iusuariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\ubicacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\ubicacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\iubicacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iubicacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\subcategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\subcategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\isubcategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\isubcategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\rolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\rolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\irolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\irolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\reportesdeanunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\reportesdeanunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\ireportesdeanunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\ireportesdeanunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\planesdepublicacionaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\planesdepublicacionaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\iplanesdepublicacionaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iplanesdepublicacionaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\ipagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\ipagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\notificacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\notificacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\inotificacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\inotificacionesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\imagenesanunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\imagenesanunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\iimagenesanunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iimagenesanunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\favoritosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\favoritosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\ifavoritosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\ifavoritosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\comentariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\comentariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\icomentariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\icomentariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\categoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\categoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\icategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\icategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\anunciossubcategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\anunciossubcategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\ianunciossubcategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\ianunciossubcategoriasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\anunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\anunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\interfaces\\ianunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\ianunciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55531E39-31FF-41F7-A14B-D8F75AA9A0D7}|lib_dominio\\lib_dominio.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_dominio\\entidades\\notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55531E39-31FF-41F7-A14B-D8F75AA9A0D7}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\ut_presentacion\\repositorios\\anunciossubcategoriasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9674C5FC-5BDE-45D6-99B5-412E5DD8C707}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\anunciossubcategoriasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55531E39-31FF-41F7-A14B-D8F75AA9A0D7}|lib_dominio\\lib_dominio.csproj|c:\\users\\tomit\\onedrive\\escritorio\\desarrollo software\\repsotiorio-anuncios\\anuncios\\lib_dominio\\entidades\\anunciossubcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +142,411 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosRolesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\UsuariosRolesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\UsuariosRolesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\UsuariosRolesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\UsuariosRolesAplicacion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:55:12.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUsuariosRolesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IUsuariosRolesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IUsuariosRolesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IUsuariosRolesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IUsuariosRolesAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:39:01.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\UsuariosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\UsuariosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\UsuariosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\UsuariosAplicacion.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:54:27.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUsuariosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IUsuariosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IUsuariosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IUsuariosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IUsuariosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:38:59.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UbicacionesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\UbicacionesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\UbicacionesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\UbicacionesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\UbicacionesAplicacion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:51:12.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUbicacionesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IUbicacionesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IUbicacionesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IUbicacionesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IUbicacionesAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:38:56.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubcategoriasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\SubcategoriasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\SubcategoriasAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\SubcategoriasAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\SubcategoriasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:50:29.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISubcategoriasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\ISubcategoriasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\ISubcategoriasAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\ISubcategoriasAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\ISubcategoriasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:38:54.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RolesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\RolesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\RolesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\RolesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\RolesAplicacion.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:28:10.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRolesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IRolesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IRolesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IRolesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IRolesAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:38:51.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportesDeAnunciosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\ReportesDeAnunciosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ReportesDeAnunciosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\ReportesDeAnunciosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ReportesDeAnunciosAplicacion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:13:29.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IReportesDeAnunciosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IReportesDeAnunciosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IReportesDeAnunciosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IReportesDeAnunciosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IReportesDeAnunciosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:38:37.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlanesDePublicacionAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\PlanesDePublicacionAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PlanesDePublicacionAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\PlanesDePublicacionAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PlanesDePublicacionAplicacion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:53:46.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPlanesDePublicacionAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IPlanesDePublicacionAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IPlanesDePublicacionAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IPlanesDePublicacionAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IPlanesDePublicacionAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:38:00.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PagosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\PagosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PagosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\PagosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PagosAplicacion.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:12:33.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NotificacionesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\NotificacionesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\NotificacionesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\NotificacionesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\NotificacionesAplicacion.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:12:06.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPagosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IPagosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IPagosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IPagosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IPagosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:37:02.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "INotificacionesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\INotificacionesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\INotificacionesAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\INotificacionesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\INotificacionesAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:36:28.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ImagenesAnunciosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\ImagenesAnunciosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ImagenesAnunciosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\ImagenesAnunciosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ImagenesAnunciosAplicacion.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:11:33.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FavoritosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\FavoritosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\FavoritosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\FavoritosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\FavoritosAplicacion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:10:29.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IImagenesAnunciosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IImagenesAnunciosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IImagenesAnunciosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IImagenesAnunciosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IImagenesAnunciosAplicacion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:35:53.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IFavoritosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IFavoritosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IFavoritosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IFavoritosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IFavoritosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:35:26.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ComentariosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\ComentariosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ComentariosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\ComentariosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ComentariosAplicacion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:10:13.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoriasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\CategoriasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\CategoriasAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\CategoriasAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\CategoriasAplicacion.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:49:44.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IComentariosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IComentariosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IComentariosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IComentariosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IComentariosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:33:12.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICategoriasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\ICategoriasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\ICategoriasAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\ICategoriasAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\ICategoriasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:32:26.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AnunciosSubcategoriasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\AnunciosSubcategoriasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\AnunciosSubcategoriasAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\AnunciosSubcategoriasAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\AnunciosSubcategoriasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:08:09.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAnunciosSubcategoriasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IAnunciosSubcategoriasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IAnunciosSubcategoriasAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IAnunciosSubcategoriasAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IAnunciosSubcategoriasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:31:26.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AnunciosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\AnunciosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\AnunciosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\AnunciosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\AnunciosAplicacion.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T05:07:53.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAnunciosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IAnunciosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IAnunciosAplicacion.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Interfaces\\IAnunciosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IAnunciosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:26:54.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Notificaciones.cs",
+              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\Entidades\\Notificaciones.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Notificaciones.cs",
+              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\Entidades\\Notificaciones.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Notificaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T03:37:38.061Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -42,46 +561,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\Conexion.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Conexion.cs",
-              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\Conexion.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\Conexion.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBEAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:17:16.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 31,
               "Title": "EntidadesNucleo.cs",
               "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
               "RelativeDocumentMoniker": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
               "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
               "RelativeToolTip": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwE4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwF0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T01:14:05.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnunciosSubcategoriasPrueba.cs",
-              "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Repositorios\\AnunciosSubcategoriasPrueba.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\AnunciosSubcategoriasPrueba.cs",
-              "ToolTip": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\ut_presentacion\\Repositorios\\AnunciosSubcategoriasPrueba.cs",
-              "RelativeToolTip": "ut_presentacion\\Repositorios\\AnunciosSubcategoriasPrueba.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvykAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:13:15.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 32,
               "Title": "AnunciosSubcategorias.cs",
               "DocumentMoniker": "C:\\Users\\tomit\\OneDrive\\Escritorio\\DESARROLLO SOFTWARE\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_dominio\\Entidades\\AnunciosSubcategorias.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\AnunciosSubcategorias.cs",
@@ -89,8 +582,7 @@
               "RelativeToolTip": "lib_dominio\\Entidades\\AnunciosSubcategorias.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:12:38.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T01:12:38.361Z"
             }
           ]
         }
