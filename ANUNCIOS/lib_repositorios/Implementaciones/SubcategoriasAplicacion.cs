@@ -17,6 +17,12 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
+            if (entidad.CategoriaId == 0)
+                throw new("lbCategoriaNovalida");
+            if (string.IsNullOrWhiteSpace(entidad.Nombre))
+                throw new Exception("lbSubcatecoriaSinNombre");
+            if (string.IsNullOrWhiteSpace(entidad.Descripcion))
+                throw new Exception("lbSubcategoriaSinDescripcion");
 
             this.IConexion!.Subcategorias!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -27,7 +33,14 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+            var entidadExistente = this.IConexion!.Subcategorias!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
 
+            entidadExistente.Nombre = entidad.Nombre;
+            entidadExistente.Descripcion = entidad.Descripcion;
+            entidadExistente.Activo = true;
+            entidad.FechaCreacion = DateTime.Now;
             this.IConexion!.Subcategorias!.Update(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -37,7 +50,8 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
-
+            if (!entidad.Activo)
+                throw new Exception("lbSubcategoriaActiva");
             this.IConexion!.Subcategorias!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;

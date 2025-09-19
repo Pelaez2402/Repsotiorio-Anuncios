@@ -24,11 +24,12 @@ namespace lib_repositorios.Implementaciones
             if (string.IsNullOrWhiteSpace(entidad.Titulo))
                 throw new Exception("lbTituloRequerido");
 
-            if (entidad.UsuarioId == 0 || entidad.UbicacionId == 0)
-                throw new Exception("lbClavesForaneasInvalidas");
+            if (entidad.UsuarioId == 0) 
+                throw new Exception("lbNoRegistraUsuario");
 
 
-
+            if (entidad.UbicacionId == 0)
+                throw new Exception("lbNoRegistraUbicacion");
 
             if (entidad.FechaPublicacion == default(DateTime))
                 entidad.FechaPublicacion = DateTime.Now;

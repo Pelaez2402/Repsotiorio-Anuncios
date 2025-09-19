@@ -16,6 +16,12 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
+            if (entidad.AnuncioId == 0) 
+                throw new Exception("lbNoHayAnuncio");
+            if (entidad.UsuarioId == 0)
+                throw new Exception("lbUsuarioNovalido");
+            if (entidad.Activo == false)
+                throw new Exception("lbNoHayFavoritos");
 
             this.IConexion!.Favoritos!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -26,7 +32,13 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+            var entidadExistente = this.IConexion!.Favoritos!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
 
+            entidadExistente.Notas = entidad.Notas;
+            entidadExistente.Activo = true;
+            entidadExistente.FechaAgregado = DateTime.Now;
             this.IConexion!.Favoritos!.Update(entidad);
             this.IConexion.SaveChanges();
             return entidad;

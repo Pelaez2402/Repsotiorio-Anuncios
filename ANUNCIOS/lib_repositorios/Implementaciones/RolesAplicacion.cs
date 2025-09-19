@@ -30,7 +30,7 @@ namespace lib_repositorios.Implementaciones
                 throw new Exception("lbEntidadNoEncontrada");
 
             entidadExistente.Nombre = entidad.Nombre;
-            
+            entidadExistente.Descripcion = entidad.Descripcion;
             this.IConexion!.Roles!.Update(entidad);
             this.IConexion.SaveChanges();
             return entidad;

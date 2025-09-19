@@ -229,14 +229,8 @@ C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUN
 C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.genruntimeconfig.cache
 C:\Users\tomit\OneDrive\Escritorio\DESARROLLO SOFTWARE\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ref\ut_presentacion.dll
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\.msCoverageSourceRootsMapping_ut_presentacion
-C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.csproj.AssemblyReference.cache
-C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.AssemblyInfoInputs.cache
-C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.AssemblyInfo.cs
-C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.csproj.CoreCompileInputs.cache
-C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.sourcelink.json
-C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\testhost.exe
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\testhost.dll
+C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\testhost.exe
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\Microsoft.TestPlatform.AdapterUtilities.dll
@@ -450,6 +444,12 @@ C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_present
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\lib_dominio.pdb
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\lib_repositorios.pdb
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.AssemblyInfo.cs
+C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.sourcelink.json
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_prese.8597B677.Up2Date
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\ut_presentacion.dll
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\ut_presentacion\obj\Debug\net8.0\refint\ut_presentacion.dll

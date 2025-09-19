@@ -16,6 +16,12 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
+            if (string.IsNullOrWhiteSpace(entidad.Url))
+                throw new Exception("lbNoHayUrl");
+            if (entidad.AnuncioId == 0)
+                throw new Exception("lbAnuncioNoValido");
+            if (entidad.UsuarioId == 0)
+                throw new Exception("lbUsuarioNoValido");
 
             this.IConexion!.ImagenesAnuncios!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -26,7 +32,13 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+            var entidadExistente = this.IConexion!.ImagenesAnuncios!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
 
+            entidadExistente.Titulo = entidad.Titulo;
+            entidadExistente.Url = entidad.Url;
+            entidadExistente.FechaSubida = DateTime.Now;
             this.IConexion!.ImagenesAnuncios!.Update(entidad);
             this.IConexion.SaveChanges();
             return entidad;

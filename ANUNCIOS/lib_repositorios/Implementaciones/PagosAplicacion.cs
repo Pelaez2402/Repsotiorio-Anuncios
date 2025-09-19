@@ -19,6 +19,16 @@ namespace lib_repositorios.Implementaciones
             var plan = this.IConexion!.PlanesDePublicacion!.FirstOrDefault(p => p.Id == entidad.PlanId);
             if (plan == null)
                 throw new Exception("lbElplanEspecificadoNoExiste");
+            if (string.IsNullOrWhiteSpace(entidad.MetodoPago))
+                throw new Exception("lbMetodoPagoNoEspecificado");
+            if (decimal.IsNegative(entidad.Monto))
+                throw new Exception("lbMontoErroneo");
+            if (entidad.Monto == 0)
+            {
+                entidad.Estado = "CANCELADO";
+                throw new Exception("lbPagoCancelado");
+            }
+
             this.IConexion!.Pagos!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -28,7 +38,14 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+            var entidadExistente = this.IConexion!.Pagos!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
 
+            entidadExistente.Estado = entidad.Estado;
+            entidadExistente.MetodoPago = entidad.MetodoPago;
+            entidadExistente.FechaPago = DateTime.Now;
+            entidadExistente.Monto = entidad.Monto;
             this.IConexion!.Pagos!.Update(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -38,7 +55,8 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
-
+            if (entidad.Estado.Equals("PENDIENTE"))
+                throw new Exception("lbPagoPendiente");
             this.IConexion!.Pagos!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;

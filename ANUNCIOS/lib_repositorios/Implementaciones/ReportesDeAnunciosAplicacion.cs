@@ -16,7 +16,13 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
-
+            if (entidad.AnuncioId == 0)
+                throw new Exception("lbAnuncioNoValido");
+            if (entidad.UsuarioId == 0)
+                throw new Exception("lbUsuarioNoValido");
+            if (string.IsNullOrWhiteSpace(entidad.Motivo))
+                throw new Exception("lbSinMotivo");
+            
             this.IConexion!.ReportesDeAnuncios!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -24,8 +30,16 @@ namespace lib_repositorios.Implementaciones
 
         public ReportesDeAnuncios? Modificar(ReportesDeAnuncios? entidad)
         {
-            if (entidad == null) throw new Exception("lbFaltaInformacion");
+            if(entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+            var entidadExistente = this.IConexion!.ReportesDeAnuncios!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
+
+            entidadExistente.Estado = entidad.Estado;
+            entidadExistente.Motivo = entidad.Motivo;
+            entidadExistente.FechaReporte = DateTime.Now;
+          
 
             this.IConexion!.ReportesDeAnuncios!.Update(entidad);
             this.IConexion.SaveChanges();
@@ -36,7 +50,8 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
-
+            if (entidad.Estado == "PENDIENTE")
+                throw new Exception("lbReportePendiente");
             this.IConexion!.ReportesDeAnuncios!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;

@@ -16,7 +16,16 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
-
+            if (entidad.Activo == false)
+                throw new Exception("lbPlanNoValido");
+            if (string.IsNullOrWhiteSpace(entidad.Nombre))
+                throw new Exception("lbPlanSinNombre");
+            if (string.IsNullOrWhiteSpace(entidad.Descripcion))
+                throw new Exception("lbDescripcionNecesaria");
+            if (entidad.Duracion <= 0)
+                throw new Exception("lbDuracionNoValida");
+            if (entidad.Precio <= 0)
+                throw new Exception("lbPrecioNovalido");
             this.IConexion!.PlanesDePublicacion!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -26,6 +35,15 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+            var entidadExistente = this.IConexion!.PlanesDePublicacion!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
+
+            entidadExistente.Nombre = entidad.Nombre;
+            entidadExistente.Precio = entidad.Precio;
+            entidadExistente.FechaCreacion = DateTime.Now;
+            entidadExistente.Descripcion = entidad.Descripcion;
+            entidadExistente.Activo = true;
 
             this.IConexion!.PlanesDePublicacion!.Update(entidad);
             this.IConexion.SaveChanges();
@@ -36,7 +54,8 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
-
+            if (!entidad.Activo)
+                throw new Exception("lbAnuncioActivo");
             this.IConexion!.PlanesDePublicacion!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;

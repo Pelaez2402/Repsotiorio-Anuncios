@@ -16,7 +16,14 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
-
+            if (entidad.UsuarioId == 0)
+                throw new Exception("lbUsuarioNoValido");
+            if (string.IsNullOrWhiteSpace(entidad.Mensaje))
+                throw new Exception("lbNotificacionSinMensaje");
+            if (string.IsNullOrWhiteSpace(entidad.Titulo))
+                throw new Exception("lbNotificacionSinTitulo");
+            if (string.IsNullOrWhiteSpace(entidad.UrlDestino))
+                throw new Exception("lbNotificacionSinDestino");
             this.IConexion!.Notificaciones!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -26,7 +33,13 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
-
+            var entidadExistente = this.IConexion!.Notificaciones!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
+            entidadExistente.Leida = entidad.Leida;
+            entidadExistente.Mensaje = entidad.Mensaje;
+            entidadExistente.Titulo = entidad.Titulo;
+            entidadExistente.UrlDestino = entidad.UrlDestino;
             this.IConexion!.Notificaciones!.Update(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -34,9 +47,11 @@ namespace lib_repositorios.Implementaciones
 
         public Notificaciones? Borrar(Notificaciones? entidad)
         {
+
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
-
+            if (entidad.Leida == false)
+                throw new Exception("lbNotificacionSinleer");
             this.IConexion!.Notificaciones!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;

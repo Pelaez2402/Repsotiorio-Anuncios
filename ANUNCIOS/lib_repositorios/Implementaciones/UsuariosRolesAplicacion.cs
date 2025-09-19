@@ -15,7 +15,10 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
-
+            if (entidad.UsuarioId == 0)
+                throw new Exception("lbUsuarioNoValido");
+            if (entidad.RolId == 0)
+                throw new Exception("lbRolNoValido");
             this.IConexion!.UsuariosRoles!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -25,6 +28,13 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+            var entidadExistente = this.IConexion!.UsuariosRoles!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
+
+            entidadExistente.AsignadoPor = entidad.AsignadoPor;
+            entidadExistente.FechaAsignacion = DateTime.Now;
+        
 
             this.IConexion!.UsuariosRoles!.Update(entidad);
             this.IConexion.SaveChanges();

@@ -16,7 +16,11 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
             if (entidad.Id != 0) throw new Exception("lbYaSeGuardo");
-        
+            if (entidad.AnuncioId == 0)
+                throw new Exception("lbAnuncioNoValido");
+            if (entidad.SubcategoriaId == 0)
+                throw new Exception("lbSubcategoriaInvalida");
+
             this.IConexion!.AnunciosSubcategorias!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -25,7 +29,16 @@ namespace lib_repositorios.Implementaciones
         public AnunciosSubcategorias? Modificar(AnunciosSubcategorias? entidad)
         {
             if (entidad == null) throw new Exception("lbFaltaInformacion");
+
             if (entidad.Id == 0) throw new Exception("lbNoSeGuardo");
+
+            var entidadExistente = this.IConexion!.AnunciosSubcategorias!.Find(entidad.Id);
+            if (entidadExistente == null)
+                throw new Exception("lbEntidadNoEncontrada");
+
+            entidadExistente.AsignadoPor = entidad.AsignadoPor;
+            entidadExistente.FechaAsignacion = DateTime.Now;
+          
 
             this.IConexion!.AnunciosSubcategorias!.Update(entidad);
             this.IConexion.SaveChanges();
