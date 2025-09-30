@@ -1,5 +1,6 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Interfaces;
+using System.Diagnostics.Metrics;
 
 
 namespace lib_repositorios.Implementaciones
@@ -75,6 +76,14 @@ namespace lib_repositorios.Implementaciones
         }
 
         public List<Anuncios> Listar() => this.IConexion!.Anuncios!.Take(20).ToList();
+        public List<Anuncios> PorTitulo(Anuncios? entidad)
+        {
+            return this.IConexion!.Anuncios!
+                .Where(x => x.Titulo!.Contains(entidad!.Titulo!))
+                .Take(50)
+                .ToList();
+        }
     }
+
 }
 
