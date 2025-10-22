@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD77E60B-E545-4D04-A286-0DE38D10D975}|asp_servicios\\asp_servicios.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\asp_servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD77E60B-E545-4D04-A286-0DE38D10D975}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD77E60B-E545-4D04-A286-0DE38D10D975}|asp_servicios\\asp_servicios.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\asp_servicios\\controllers\\usuariosrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD77E60B-E545-4D04-A286-0DE38D10D975}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\usuariosrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosRolesController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_servicios\\Controllers\\UsuariosRolesController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\UsuariosRolesController.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_servicios\\Controllers\\UsuariosRolesController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\UsuariosRolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T00:08:04.555Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -35,19 +48,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_servicios\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_servicios\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAIgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T23:01:36.855Z",
-              "EditorCaption": ""
             }
           ]
         }
