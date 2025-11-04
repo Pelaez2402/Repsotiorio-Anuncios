@@ -5,6 +5,7 @@ using lib_repositorios.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics.Metrics;
 using lib_repositorios.Implementaciones;
+
 namespace asp_servicios.Controllers
 {
     [ApiController]
@@ -14,7 +15,7 @@ namespace asp_servicios.Controllers
         private IRolesAplicacion? iAplicacion = null;
         private TokenAplicacion? tokenController = null;
 
-        public RolesController(IRolesAplicacion? iAplicacion, TokenAplicaion tokenController)
+        public RolesController(IRolesAplicacion? iAplicacion, TokenAplicacion tokenController)
         {
             this.iAplicacion = iAplicacion;
             this.tokenController = tokenController;

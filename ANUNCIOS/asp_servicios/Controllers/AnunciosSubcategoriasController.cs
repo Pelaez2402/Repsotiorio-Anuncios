@@ -64,11 +64,11 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-                /*if (!tokenController!.Validar(datos))
+                if (!tokenController!.Validar(datos))
                 {
                     respuesta["Error"] = "lbNoAutenticacion";
                     return JsonConversor.ConvertirAString(respuesta);
-                }*/
+                }
                 var entidad = JsonConversor.ConvertirAObjeto<AnunciosSubcategorias>(
                 JsonConversor.ConvertirAString(datos["Entidad"]));
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
@@ -94,11 +94,11 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-                /*if (!tokenController!.Validar(datos))
+                if (!tokenController!.Validar(datos))
                 {
                     respuesta["Error"] = "lbNoAutenticacion";
                     return JsonConversor.ConvertirAString(respuesta);
-                }*/
+                }
                 var entidad = JsonConversor.ConvertirAObjeto<AnunciosSubcategorias>(
                 JsonConversor.ConvertirAString(datos["Entidad"]));
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
@@ -124,11 +124,11 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-                /*if (!tokenController!.Validar(datos))
+                if (!tokenController!.Validar(datos))
                 {
                     respuesta["Error"] = "lbNoAutenticacion";
                     return JsonConversor.ConvertirAString(respuesta);
-                }*/
+                }
                 var entidad = JsonConversor.ConvertirAObjeto<AnunciosSubcategorias>(
                 JsonConversor.ConvertirAString(datos["Entidad"]));
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
