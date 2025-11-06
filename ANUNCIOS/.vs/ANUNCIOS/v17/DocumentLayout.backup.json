@@ -1,16 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\lib_presentaciones\\implementaciones\\anunciospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\anunciospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\lib_presentaciones\\interfaces\\ianunciospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\interfaces\\ianunciospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\tomas\\OneDrive\\Desktop\\Repsotiorio-Anuncios\\ANUNCIOS\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,21 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAnunciosPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_presentaciones\\Interfaces\\IAnunciosPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IAnunciosPresentacion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_presentaciones\\Interfaces\\IAnunciosPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Interfaces\\IAnunciosPresentacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T14:34:41.956Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -47,24 +25,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AnunciosPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_presentaciones\\Implementaciones\\AnunciosPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\AnunciosPresentacion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_presentaciones\\Implementaciones\\AnunciosPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\AnunciosPresentacion.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T14:34:11.06Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
