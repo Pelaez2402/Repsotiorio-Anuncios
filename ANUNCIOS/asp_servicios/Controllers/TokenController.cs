@@ -1,9 +1,9 @@
 ﻿using asp_servicios.Nucleo;
-using lib_repositorios.Interfaces;
+using lib_repositorios.Implementaciones;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using Microsoft.AspNetCore.Mvc;
-using lib_repositorios.Implementaciones;
+
 
 namespace asp_servicios.Controllers
 {

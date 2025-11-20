@@ -5,48 +5,48 @@ using System.Diagnostics.Metrics;
 
 namespace lib_presentaciones.Implementaciones
 {
-    public class ImagenesAnunciosPresentacion : IAnunciosPresentacion
+    public class ImagenesAnunciosPresentacion : IImagenesAnunciosPresentacion
     {
         private Comunicaciones? comunicaciones = null;
 
-        public async Task<List<Anuncios>> Listar()
+        public async Task<List<ImagenesAnuncios>> Listar()
         {
-            var lista = new List<Anuncios>();
+            var lista = new List<ImagenesAnuncios>();
             var datos = new Dictionary<string, object>();
 
             comunicaciones = new Comunicaciones();
-            datos = comunicaciones.ConstruirUrl(datos, "Anuncios/Listar");
+            datos = comunicaciones.ConstruirUrl(datos, "ImagenesAnuncios/Listar");
             var respuesta = await comunicaciones!.Ejecutar(datos);
 
             if (respuesta.ContainsKey("Error"))
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            lista = JsonConversor.ConvertirAObjeto<List<Anuncios>>(
+            lista = JsonConversor.ConvertirAObjeto<List<ImagenesAnuncios>>(
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
 
-        public async Task<List<Anuncios>> PorTitulo(Anuncios? entidad)
+        public async Task<List<ImagenesAnuncios>> PorTitulo(ImagenesAnuncios? entidad)
         {
-            var lista = new List<Anuncios>();
+            var lista = new List<ImagenesAnuncios>();
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad!;
 
             comunicaciones = new Comunicaciones();
-            datos = comunicaciones.ConstruirUrl(datos, "Anuncios/PorTipo");
+            datos = comunicaciones.ConstruirUrl(datos, "ImagenesAnuncios/PorTipo");
             var respuesta = await comunicaciones!.Ejecutar(datos);
 
             if (respuesta.ContainsKey("Error"))
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            lista = JsonConversor.ConvertirAObjeto<List<Anuncios>>(
+            lista = JsonConversor.ConvertirAObjeto<List<ImagenesAnuncios>>(
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
 
-        public async Task<Anuncios?> Guardar(Anuncios? entidad)
+        public async Task<ImagenesAnuncios?> Guardar(ImagenesAnuncios? entidad)
         {
             if (entidad!.Id != 0)
             {
@@ -56,19 +56,19 @@ namespace lib_presentaciones.Implementaciones
             datos["Entidad"] = entidad;
 
             comunicaciones = new Comunicaciones();
-            datos = comunicaciones.ConstruirUrl(datos, "Anuncios/Guardar");
+            datos = comunicaciones.ConstruirUrl(datos, "ImagenesAnuncios/Guardar");
             var respuesta = await comunicaciones!.Ejecutar(datos);
 
             if (respuesta.ContainsKey("Error"))
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Anuncios>(
+            entidad = JsonConversor.ConvertirAObjeto<ImagenesAnuncios>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
 
-        public async Task<Anuncios?> Modificar(Anuncios? entidad)
+        public async Task<ImagenesAnuncios?> Modificar(ImagenesAnuncios? entidad)
         {
             if (entidad!.Id == 0)
             {
@@ -78,19 +78,19 @@ namespace lib_presentaciones.Implementaciones
             datos["Entidad"] = entidad;
 
             comunicaciones = new Comunicaciones();
-            datos = comunicaciones.ConstruirUrl(datos, "Anuncios/Modificar");
+            datos = comunicaciones.ConstruirUrl(datos, "ImagenesAnuncios/Modificar");
 
             var respuesta = await comunicaciones!.Ejecutar(datos);
             if (respuesta.ContainsKey("Error"))
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Anuncios>(
+            entidad = JsonConversor.ConvertirAObjeto<ImagenesAnuncios>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
 
-        public async Task<Anuncios?> Borrar(Anuncios? entidad)
+        public async Task<ImagenesAnuncios?> Borrar(ImagenesAnuncios? entidad)
         {
             if (entidad!.Id == 0)
             {
@@ -100,14 +100,14 @@ namespace lib_presentaciones.Implementaciones
             datos["Entidad"] = entidad;
 
             comunicaciones = new Comunicaciones();
-            datos = comunicaciones.ConstruirUrl(datos, "Anuncios/Borrar");
+            datos = comunicaciones.ConstruirUrl(datos, "ImagenesAnuncios/Borrar");
             var respuesta = await comunicaciones!.Ejecutar(datos);
 
             if (respuesta.ContainsKey("Error"))
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Anuncios>(
+            entidad = JsonConversor.ConvertirAObjeto<ImagenesAnuncios>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }

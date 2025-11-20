@@ -5,10 +5,10 @@ namespace lib_presentaciones.Interfaces
 {
     public interface IImagenesAnunciosPresentacion
     {
-        Task<List<Anuncios>> Listar();
-        Task<List<Anuncios>> PorTitulo(Anuncios? entidad);
-        Task<Anuncios?> Guardar(Anuncios? entidad);
-        Task<Anuncios?> Modificar(Anuncios? entidad);
-        Task<Anuncios?> Borrar(Anuncios? entidad);
+        Task<List<ImagenesAnuncios>> Listar();
+        
+        Task<ImagenesAnuncios?> Guardar(ImagenesAnuncios? entidad);
+        Task<ImagenesAnuncios?> Modificar(ImagenesAnuncios? entidad);
+        Task<ImagenesAnuncios?> Borrar(ImagenesAnuncios? entidad);
     }
 }

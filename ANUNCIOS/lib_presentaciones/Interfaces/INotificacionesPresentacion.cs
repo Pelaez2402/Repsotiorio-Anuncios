@@ -5,10 +5,10 @@ namespace lib_presentaciones.Interfaces
 {
     public interface INotificacionesPresentacion
     {
-        Task<List<Anuncios>> Listar();
-        Task<List<Anuncios>> PorTitulo(Anuncios? entidad);
-        Task<Anuncios?> Guardar(Anuncios? entidad);
-        Task<Anuncios?> Modificar(Anuncios? entidad);
-        Task<Anuncios?> Borrar(Anuncios? entidad);
+        Task<List<Notificaciones>> Listar();
+        
+        Task<Notificaciones?> Guardar(Notificaciones? entidad);
+        Task<Notificaciones?> Modificar(Notificaciones? entidad);
+        Task<Notificaciones?> Borrar(Notificaciones? entidad);
     }
 }

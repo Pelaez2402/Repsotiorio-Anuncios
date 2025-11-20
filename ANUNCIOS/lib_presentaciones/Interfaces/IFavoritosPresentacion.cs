@@ -5,10 +5,10 @@ namespace lib_presentaciones.Interfaces
 {
     public interface IFavoritosPresentacion
     {
-        Task<List<Anuncios>> Listar();
-        Task<List<Anuncios>> PorTitulo(Anuncios? entidad);
-        Task<Anuncios?> Guardar(Anuncios? entidad);
-        Task<Anuncios?> Modificar(Anuncios? entidad);
-        Task<Anuncios?> Borrar(Anuncios? entidad);
+        Task<List<Favoritos>> Listar();
+        
+        Task<Favoritos?> Guardar(Favoritos? entidad);
+        Task<Favoritos?> Modificar(Favoritos? entidad);
+        Task<Favoritos?> Borrar(Favoritos? entidad);
     }
 }

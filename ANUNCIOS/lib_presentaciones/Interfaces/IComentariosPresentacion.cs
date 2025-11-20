@@ -5,10 +5,10 @@ namespace lib_presentaciones.Interfaces
 {
     public interface IComentariosPresentacion
     {
-        Task<List<Anuncios>> Listar();
-        Task<List<Anuncios>> PorTitulo(Anuncios? entidad);
-        Task<Anuncios?> Guardar(Anuncios? entidad);
-        Task<Anuncios?> Modificar(Anuncios? entidad);
-        Task<Anuncios?> Borrar(Anuncios? entidad);
+        Task<List<Comentarios>> Listar();
+        
+        Task<Comentarios?> Guardar(Comentarios? entidad);
+        Task<Comentarios?> Modificar(Comentarios? entidad);
+        Task<Comentarios?> Borrar(Comentarios? entidad);
     }
 }

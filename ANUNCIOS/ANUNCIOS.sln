@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_servicios", "asp_servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_presentaciones", "lib_presentaciones\lib_presentaciones.csproj", "{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_presentacion", "asp_presentacion\asp_presentacion.csproj", "{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{9674C5FC-5BDE-45D6-99B5-412E5DD8C707} = {2848C796-6EFB-4992-B7C5-B8B0433FE7A7}
 		{DD77E60B-E545-4D04-A286-0DE38D10D975} = {F895C6EB-D681-47C7-A097-263378422C01}
 		{F1B535B9-CCD4-4533-A53C-EA34F4225B6F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F59BDF4A-F15C-4620-9037-45AA2E7E2F36} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33E8EC02-BD39-43E7-8A7B-A76BFA30C9B1}

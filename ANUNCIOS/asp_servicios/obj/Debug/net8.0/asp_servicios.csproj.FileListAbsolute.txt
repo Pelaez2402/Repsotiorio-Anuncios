@@ -21,7 +21,6 @@ C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\asp_servic
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\asp_servicios\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\asp_servicios\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\asp_servicios\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\asp_servicios\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\asp_servicios\obj\Debug\net8.0\asp_servicios.dll
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\asp_servicios\obj\Debug\net8.0\refint\asp_servicios.dll
 C:\Users\Sebastian\Desktop\Programacion\Repsotiorio-Anuncios\ANUNCIOS\asp_servicios\obj\Debug\net8.0\asp_servicios.pdb
