@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\asp_presentacion\\pages\\ventanas\\anuncios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\anuncios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B535B9-CCD4-4533-A53C-EA34F4225B6F}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\implementaciones\\tokenaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\tokenaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{9F13278D-A6DE-4C8D-A96E-A73608F8029E}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,15 +50,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\TokenAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\TokenAplicacion.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\Implementaciones\\TokenAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\TokenAplicacion.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:41:48.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "script.sql ",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\script.sql",
+              "RelativeDocumentMoniker": "lib_repositorios\\script.sql",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_repositorios\\script.sql",
+              "RelativeToolTip": "lib_repositorios\\script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-20T14:40:50.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Anuncios.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_presentacion\\Pages\\Ventanas\\Anuncios.cshtml",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Anuncios.cshtml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_presentacion\\Pages\\Ventanas\\Anuncios.cshtml",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Anuncios.cshtml",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T00:04:10.116Z",
+              "Title": "Comunicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_presentaciones\\Comunicaciones.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Comunicaciones.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\lib_presentaciones\\Comunicaciones.cs",
+              "RelativeToolTip": "lib_presentaciones\\Comunicaciones.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAADgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:39:36.83Z",
               "EditorCaption": ""
             }
           ]

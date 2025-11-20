@@ -22,7 +22,7 @@ namespace lib_repositorios.Implementaciones
         public string Llave(Usuarios? entidad)
         {
             var usuario = this.IConexion!.Usuarios!
-                .FirstOrDefault(x => x.Nombre == entidad!.Nombre &&
+                .FirstOrDefault(x => x.Correo == entidad!.Correo &&
                                 x.Contraseña == entidad.Contraseña);
             if (usuario == null)
                 return string.Empty;
