@@ -54,7 +54,13 @@
                 <input type="hidden"
                        asp-for="@Model.Actual!.FechaPublicacion" />
                 <input type="hidden"
+                       asp-for="@Model.Actual!.UsuarioId" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.UbicacionId" />
+                <input type="hidden"
                        asp-for="@Model.Actual!.Estado" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.PlanId" />
 
             }
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
@@ -72,6 +78,7 @@
                                        asp-for="@Model.Actual!.Titulo" />
                             </div>
                         </div>
+
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
                                 Descripcion
@@ -104,6 +111,26 @@
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
+                                Usuario
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmUsuarioId"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.UsuarioId" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Ubicacion
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmUbicacionId"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.UbicacionId" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
                                 Estado
                             </label>
                             <div class="col-lg-6">
@@ -112,7 +139,16 @@
                                        asp-for="@Model.Actual!.Estado" />
                             </div>
                         </div>
-
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                PlanDePublicacion
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmPlanId"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.PlanId" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             }
@@ -180,7 +216,16 @@
                                 FechaPublicacion
                             </th>
                             <th>
+                                Usuario
+                            </th>
+                            <th>
+                                Ubicacion
+                            </th>
+                            <th>
                                 Estado
+                            </th>
+                            <th>
+                                PlanePublicacion
                             </th>
                             <th class="cl_actions">
                                 Accion
@@ -194,6 +239,7 @@
                                     <td>
                                         @elemento.Titulo
                                     </td>
+
                                     <td>
                                         @elemento.Descripcion
                                     </td>
@@ -204,7 +250,16 @@
                                         @elemento.FechaPublicacion
                                     </td>
                                     <td>
+                                        @elemento.UsuarioId
+                                    </td>
+                                    <td>
+                                        @elemento.UbicacionId
+                                    </td>
+                                    <td>
                                         @elemento.Estado
+                                    </td>
+                                    <td>
+                                        @elemento.PlanId
                                     </td>
 
                                     <td>
