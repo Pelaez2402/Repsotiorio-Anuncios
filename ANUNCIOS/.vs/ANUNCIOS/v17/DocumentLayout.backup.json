@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\",
+  "WorkspaceRootPath": "C:\\Users\\tomas\\OneDrive\\Desktop\\Repsotiorio-Anuncios\\ANUNCIOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\sebastian\\desktop\\programacion\\repsotiorio-anuncios\\anuncios\\asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\tomas\\onedrive\\desktop\\repsotiorio-anuncios\\anuncios\\asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F59BDF4A-F15C-4620-9037-45AA2E7E2F36}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -30,21 +30,21 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_presentacion\\Pages\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Desktop\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_presentacion\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Programacion\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_presentacion\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Desktop\\Repsotiorio-Anuncios\\ANUNCIOS\\asp_presentacion\\Pages\\Index.cshtml",
               "RelativeToolTip": "asp_presentacion\\Pages\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-25T02:12:25.701Z",
               "EditorCaption": ""
